@@ -1,0 +1,7 @@
+ExitOnError 1
+r
+h
+loadfile "D:\github\Kinetis Firmware_191004\Debug\Q-Track 2.hex"
+qc
+
+qc
