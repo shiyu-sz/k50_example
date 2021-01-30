@@ -1,7 +1,7 @@
 ExitOnError 1
 r
 h
-loadfile "D:\github\Kinetis Firmware_191004\Debug\Q-Track 2.hex"
+loadfile "D:\gitee\k50_example\Debug\k50_example.hex"
 qc
 
 qc
