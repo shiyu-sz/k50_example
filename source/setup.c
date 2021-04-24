@@ -130,7 +130,7 @@ void gpioSetup(){
 	startStopButnPinConfig.outputLogic = 0;
 
 	PORT_SetPinConfig(PORTA, 13, &startStopButnPortConfig);
-	PORT_SetPinInterruptConfig(PORTA, 13, kPORT_InterruptFallingEdge);
+//	PORT_SetPinInterruptConfig(PORTA, 13, kPORT_InterruptFallingEdge);
 	GPIO_PinInit(GPIOA, 13, &startStopButnPinConfig);
 #endif
 
